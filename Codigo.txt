@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang= 'es' style= 'height: 100%;'>
+<head>
+    <title>Mercovid</title>
+    {% load static %}
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="{% static 'css/materialize.min.css' %}" >
+    <script type="text/javascript" src="{% static 'js/jquery.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/materialize.min.js' %}"></script>
+</head>
+<body class='indigo lighten-5'>
+    <div class="container">
+        <div class='row'>
+            <div class='col s12'>
+                <h1 style='text-align:  center;'>Mercovid</h1>
+            </div>
+            <div class='col s12'>
+                <h5 style='text-align:  center;'>Hay {{numero_de_articulos}} artículos a la venta en tu ciudad!</h5>
+
+            </div>
+            <div class='col s12'>
+                <table>
+                    <thead>
+                      <tr>
+                          <th>Name</th>
+                          <th>Item Name</th>
+                          <th>Item Price</th>
+                      </tr>
+                    </thead>
+            
+                    <tbody>
+                      <tr>
+                        <td>Roberto</td>
+                        <td>Chaqueta</td>
+                        <td>$10.000</td>
+                      </tr>
+                      <tr>
+                        <td>Alan</td>
+                        <td>Huevos</td>
+                        <td>$5.000</td>
+                      </tr>
+                      <tr>
+                        <td>Jonathan</td>
+                        <td>Polera</td>
+                        <td>$7.000</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+            </div>
+ 
+
+        </div>
+    </div>
+</body>
+</html>
